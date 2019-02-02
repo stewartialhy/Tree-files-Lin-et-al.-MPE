@@ -1,0 +1,142 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=40;
+	taxlabels
+	'Camellia sasanqua'
+	'Eurya alata'
+	'H. cordifolia 1'
+	'H. cordifolia 2'
+	'H. crassifolia 1'
+	'H. crassifolia 2'
+	'H. laotica 1'
+	'H. laotica 2'
+	'H. micrantha 1'
+	'H. micrantha 2'
+	'H. obovata 1'
+	'H. obovata 2'
+	'H. sinensis 1'
+	'H. sinensis 2'
+	'H. sinii 1'
+	'H. sinii 2'
+	'H. villosa 1'
+	'H. villosa 2'
+	'S. acutisepala 1'
+	'S. acutisepala 2'
+	'S. koreana'
+	'S. malacodendron 1'
+	'S. malacodendron 2'
+	'S. monadelpha'
+	'S. ovata 1'
+	'S. ovata 2'
+	'S. pseudocamellia 1'
+	'S. pseudocamellia 2'
+	'S. rostrata 1'
+	'S. rostrata 2'
+	'S. rubiginosa 1'
+	'S. rubiginosa 2'
+	'S. serrata 1'
+	'S. serrata 2'
+	'S. serrata 3'
+	'S. shensiensis'
+	'S. sinensis 1'
+	'S. sinensis 2'
+	'Schima superba'
+	'Sinojackia xylocarpa'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((('Schima superba':0.104032,('Camellia sasanqua':0.175569,(('S. malacodendron 2':0.017681,'S. malacodendron 1':1.0E-6)[&label=88]:0.067174,((((('H. obovata 1':1.0E-6,'H. obovata 2':0.003691)[&label=100]:0.045763,'H. sinensis 2':0.020423)[&label=71]:0.008326,(('H. sinii 2':0.012427,('H. villosa 1':0.007078,'H. villosa 2':0.007843)[&label=57]:1.0E-6)[&label=29]:0.01276,(('H. crassifolia 1':0.027552,'H. crassifolia 2':0.028471)[&label=59]:0.020958,(('H. laotica 2':0.003253,'H. laotica 1':1.0E-6)[&label=99]:0.021115,('H. sinensis 1':0.027671,('H. sinii 1':0.003994,('H. cordifolia 2':0.008533,'H. cordifolia 1':1.0E-6)[&label=96]:0.018681)[&label=41]:0.003972)[&label=17]:0.008545)[&label=6]:0.002798)[&label=6]:0.003044)[&label=56]:0.008332)[&label=70]:0.013792,('H. micrantha 2':0.012019,'H. micrantha 1':1.0E-6)[&label=97]:0.036379)[&label=72]:0.034703,(('S. ovata 1':0.005321,'S. ovata 2':0.016263)[&label=99]:0.037097,(((('S. rostrata 2':0.019938,('S. rostrata 1':0.028372,('S. pseudocamellia 1':1.0E-6,('S. serrata 2':0.033762,'S. serrata 3':0.030246)[&label=22]:0.021457)[&label=11]:0.009534)[&label=3]:0.002768)[&label=9]:0.007447,(('S. rubiginosa 1':1.0E-6,'S. rubiginosa 2':0.012564)[&label=79]:0.024522,(('S. sinensis 2':1.0E-6,('S. acutisepala 2':0.0098,'S. acutisepala 1':0.014893)[&label=17]:0.004858)[&label=25]:0.017715,'S. sinensis 1':0.004779)[&label=39]:0.02075)[&label=11]:0.005571)[&label=0]:1.0E-6,'S. shensiensis':0.008282)[&label=9]:0.009921,(('S. serrata 1':0.020234,'S. monadelpha':1.0E-6)[&label=69]:0.023834,('S. koreana':0.016428,'S. pseudocamellia 2':0.026293)[&label=58]:1.0E-6)[&label=25]:0.014211)[&label=77]:0.045629)[&label=75]:0.019119)[&label=56]:0.028511)[&label=61]:0.078807)[&label=55]:0.070612)[&label=33]:1.0E-6,'Sinojackia xylocarpa':0.378195):0.047921,'Eurya alata':0.047921);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
