@@ -3,4 +3,4 @@ All the tree files in the paper ' Phylogenomic conflict resulting from ancient i
 
 For the plastid datasets, phylogenetic trees generated from complete plastome alignments were labeled  'complete_plastome_*' where * refers to ML/MP/BI. Same rule applies to plastid coding sequences(CDS) data.
 
-For the nuclear data (i.e., data matrices generated from RAD-seq), phylogenetic trees were labeled 'DATASET_*' where DATASET was corresponding to same SNPs matrix in the paper under same name and * refers to SVDquartets (SVD for short) or ML approach.
+For the nuclear datasets (i.e., data matrices generated from RAD-seq), phylogenetic trees were labeled 'DATASET_*' where DATASET was corresponding to same SNPs matrix in the paper under same name and * refers to SVDquartets (SVD for short) or ML approach.
